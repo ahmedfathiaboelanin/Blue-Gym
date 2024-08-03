@@ -1,0 +1,35 @@
+.profile-data {
+    padding: 20px 0px !important;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.userInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px !important;
+    box-shadow: 0px 0px 10px var(--bs-gray-300);
+    border-radius: 5px;
+    gap: 10px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px) !important;
+}
+.workoutTable {
+    border: 1px solid var(--bs-gray-300);
+    box-shadow: 0px 0px 10px var(--bs-gray-300);
+}
+.infoRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.infoRow input {
+    flex: 1;
+}
+.editAlert{
+    font-size: 16px;
+}
